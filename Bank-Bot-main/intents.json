@@ -1,0 +1,75 @@
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I could provide you the details of RMD engineering college such as the Facilities available ,Placements,Departments,Various clubs,etc,.."],
+         "context": [""]
+        },
+        {"tag": "Transaction History",
+         "patterns": ["Can you show me my transaction history?" ],
+         "responses": ["Sure! I can help you with that. Could you please provide your account number or specify a time period for the transactions?"]
+        ,
+         "context": [""]
+        },
+        {"tag": "Account Balance Inquiry",
+         "patterns": ["What is my account balance?" ],
+         "responses": ["To check your account balance, please provide me with your account number."],
+         "context": [""]
+        },
+        {"tag": "Fund Transfer",
+         "patterns": ["I want to transfer funds to another account" ],
+         "responses": ["Great! To proceed with the fund transfer, please provide me with the recipient's account number and the amount you wish to transfer"],
+         "context": [""]
+        },
+        {"tag": "placement",
+         "patterns": ["placement in ","training and placement at "],
+         "responses": ["The Department of Training and Placement at RMD Engineering College was set up in June 2004 for the first time in the history of College, with a view to enable the students to get the employment opportunities right in the campus while they pursue their studies. This department interacts with reputed organizations all over the country for arranging campus interviews for the placement of final year students. It takes great efforts to send most of the students for in-plant training to enhance their technical ability and gain exposure to the practical world. Industrial visits to reputed companies are arranged to know more details about industrial activities. It also enhances the soft-skill capability of the students through regular training programs. "],
+         "context": [""]
+        },
+        {"tag": "facilities",
+         "patterns": ["what are the facilities available in ?", "List of facilities available at " ],
+         "responses": ["Spread across 26.2 acres of lush green environment, the college has excellent infrastructure facilities including adequate class rooms, tutorial rooms, laboratories , seminar halls for respective departments and Library & sports facilities."],
+         "context": [""]
+        },
+        {"tag": "Loan Information",
+         "patterns": ["What types of loans do you offer?"],
+         "responses": ["We offer a range of loan products, including personal loans, home loans, and car loans. Is there a specific type of loan you are interested in?"],
+          "context": [""]
+        },
+        {"tag": "address",
+         "patterns": [ "Where is the nearest bank branch?" ],
+         "responses": ["I can help you find the nearest bank branch. Could you please provide me with your location or address?"],
+         "context": [""]
+        },
+        {"tag": "library",
+         "patterns": ["","library facilities at "],
+         "responses": ["The college central library is located in the new block with a carpet area of 1430 sq.mt. It contains 60645 volumes of books and 14342 titles.The Library subscribes to 54 national Journals, 6 leading international E-journals and E-books database, 38 Magazines, 16 News Papers, 1828 back volumes of journals and 6649 CD ROMs. Books are classified and arranged according to the Universal Decimal classification scheme. The value of books, periodicals and other materials in the library is around Rs.2.15 Crore"],
+         "context": [""]
+        },
+        {"tag": "sports",
+         "patterns": ["about sports at ?","List of sports in ?"],
+         "responses": ["The Department of Physical Education and Sports of our college has etched a name for itself in several sports activities namely Athletics, Chess, Carrom, Kabaddi, Volleyball, Basketball, Badminton, Ball Badminton, Hand Ball, Football, Throwball, Netball, Rollball, Sepaktakraw, Karate, Judo, Taekwondo, Best Physique, Cricket, Cross Country, Power Lifting, Table Tennis, Weight Lifting, and Kabaddi to name a few."],
+         "context": [""]
+        }
+   ]
+}
